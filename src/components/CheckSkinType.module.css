@@ -1,0 +1,46 @@
+.check {
+    padding: 90px;
+    background-color: rgb(181, 52, 65);
+    text-align: center;
+    margin: 70px;
+  }
+  
+  .heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: wheat;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .customButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #720e0e8d;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .customButton:hover {
+    background-color: #cb4747;
+  }
+  
+  .submitButton {
+    padding: 10px 20px;
+    background-color: rgb(134, 21, 32);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .submitButton:hover {
+    background-color: #cb4747;
+  }
+  
