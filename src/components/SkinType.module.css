@@ -1,0 +1,61 @@
+.skinType {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .box {
+    width: 300px;
+    padding: 35px;
+    background-color: rgb(181, 52, 65);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .box h3 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .box p {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 1.5;
+    text-align: justify;
+    
+  }
