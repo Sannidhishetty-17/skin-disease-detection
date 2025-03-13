@@ -1,0 +1,48 @@
+.footer {
+    background-color: rgb(181, 52, 65);
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .box {
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+  }
+  
+  h3 {
+    font-size: 22px;
+    color: wheat;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: wheat;
+    font-size: 25px;
+  }
+  
+  a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px 0;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
