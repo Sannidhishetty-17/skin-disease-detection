@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import About from './components/About'
 import SkinType from './components/SkinType';
 import CheckSkinType from './components/CheckSkinType';
+import Contact from './components/Contact';
 
 
 
@@ -16,6 +17,7 @@ const App = () => {
       <About />
       <SkinType />
       <CheckSkinType />
+      <Contact />
   
     </div>
   )
